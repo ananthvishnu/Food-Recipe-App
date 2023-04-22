@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+  text-align: left;
+}
+
+.flex-item-left {
+  /* background-color: #f1f1f1; */
+  padding: 10px;
+  /* flex: 45%; */
+}
+
+.flex-item-right {
+  /* background-color: dodgerblue; */
+  padding: 10px;
+  /* flex: 55%; */
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
+
+.images{
+  margin-left: 100px;
+  margin-top: 75px;
+  height: 500px;
+}
+
+.text{
+  margin-top: 100px;
+  font-size: 20px;
+  /* margin-right: 50px; */
+}
+
+.heading{
+  margin-left: 700px;
+  margin-top: 25px;
+}
+
+.forms{
+  font-size: 20px !important;
+}
